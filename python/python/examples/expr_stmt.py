@@ -42,8 +42,4 @@ x = y, a = z, *q,
 # test COLON test
 x: int
 
-# COLON test ASSIGN testlist
-x: int = 8
-
-# test '-=' testlist
-x -= 9
+x: int = 8 - 9
